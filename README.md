@@ -1,6 +1,6 @@
 # Operator Catalog template
 
-Template repository for an Operator Lifecycle Manager catalog.
+Template repository for an Operator Lifecycle Manager catalog. The `bundles.txt` will contain a list of operator bundle images that should be included in the operator catalog. Each bundle version will be on its own line. You can manually add images to the bundles file, or better yet, allow the operator build pipeline do it for you each time there is a new release of the operator.
 
 ## Getting started
 
